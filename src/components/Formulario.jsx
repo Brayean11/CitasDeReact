@@ -79,30 +79,27 @@ import Error from './Error';
           setEmail('')
           setFecha('')
           setSintomas('')
-
-
-
-      
+          
   }
   
   return (
-    <div className="md:w-1/2 lg:w-2/5 mx-9 shadow-lg rouded.lg ">
+    <div className="md:w-1/2 lg:w-2/5 mx-10 rouded.lg ">
       <h2 className="font-black text-3xl text-center">
         Seguimiento de Pacientes
       </h2>
 
-      <p className="text-lg mt-5 text-center mb-10">
+      <p className="text-lg mt-5 text-center mb-12">
         Añade Pacientes y {""}
         <span className="text-purple-600 font-bold">Administralos</span>
       </p>
 
       <form
         onSubmit={handleSubmit}
-        className="bg-white shadow-md rounded-lg py-10 px-5 mb-10"
+        className=" bg-white shadow-md rounded-lg py-10 px-5 mb-10 "
       >
         {error && <Error> <p> Todos los campos son obligatorios</p> </Error>}
 
-        <div className="mb-5">
+        <div className="mb-3">
           <label
             htmlFor="Mascota"
             className="block text-gray-700 uppercase font-bold"

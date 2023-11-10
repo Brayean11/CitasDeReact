@@ -1,6 +1,26 @@
 
 
 
+.scbar::-webkit-scrollbar{
+background-color: rgba(115, 28, 245, 0.507);
+ width: 12px;
+ border-radius: 12px;
+}
+
+.scbar::-webkit-scrollbar-thumb:hover{
+  background-color: rgba(115, 28, 245, 0.507);
+  width: 12px;
+  border-radius: 12px;
+  
+
+}
+
+.scbar::-webkit-scrollbar{
+  
+}
+
+
+
 
 
 @tailwind base;
@@ -9,13 +29,7 @@
 
 
 
-
-
-
-
-
-
-
+ 
 
 
 
